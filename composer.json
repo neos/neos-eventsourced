@@ -1,0 +1,15 @@
+{
+  "name": "neos/neos-eventsourced",
+  "type": "neos-package",
+  "description": "An adapter for using the event sourced Content Repository in Neos",
+  "license": "GPL-3.0+",
+  "require": {
+    "neos/neos": "~3.0",
+    "neos/content-repository-eventsourced": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Neos\\Neos\\EventSourced\\": "Classes"
+    }
+  }
+}
